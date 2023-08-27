@@ -1,0 +1,35 @@
+.dashboard {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(247, 241, 241);
+  display: flex;
+}
+
+.box {
+  width: 25%;
+  height: 100%;
+  /* background-color: rgb(35, 5, 58); */
+  /* background-color: rgb(18, 18, 58); */
+  background: linear-gradient(rgb(52, 3, 52), rgb(27, 2, 27));
+  color: white;
+}
+
+.msgBox {
+  width: 50%;
+  height: 100%;
+  /* background-color: white; */
+  background-color: rgb(247, 241, 241);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* background-image: linear-gradient(
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 6)
+    ),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs8uyzW4tUL443OJcd9V1KVUaLGZh1qGaHVUtttGepBfvms7phSfjPWGLGKvVd4G1mFxE&usqp=CAU");
+  background-size: cover;
+  background-position: center; */
+}
